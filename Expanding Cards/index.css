@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+}
+.panel{
+    flex: 0.5;
+    height: 90vh;
+    margin: 10px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all 700ms ease-in;
+}
+
+.active{
+flex: 8;
+}
