@@ -12,3 +12,7 @@ function removeActiveClass(){
         slide.classList.remove("active");
       });
 };
+
+
+// querySelectorAll - querySelectorAll is used to select all element from DOM that matches the specified css selector 
+// and return the nodelist
